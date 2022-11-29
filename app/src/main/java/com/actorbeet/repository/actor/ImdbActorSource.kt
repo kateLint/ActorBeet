@@ -29,7 +29,7 @@ class ImdbActorSource {
         actor.enqueue(object : Callback<Actor> {
             override fun onResponse(call: Call<Actor>, response: Response<Actor>) {
                 val actorInfo: Actor? = response.body()
-                println("Kate actorInfo =" + actorInfo)
+                println("Kate 2 actorInfo =" + actorInfo)
             }
 
             override fun onFailure(call: Call<Actor>, t: Throwable?) {
